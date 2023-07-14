@@ -16,6 +16,6 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Step one
-      - uses: action/checkout@v2
+        uses: action/checkout@v2
       - name: Step two
         run: "GetChildItem Env: | Sort-Object Name"
